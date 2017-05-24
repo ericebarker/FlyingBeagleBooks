@@ -1,0 +1,167 @@
+html {
+
+	background: url(../images/tiled-brick.jpeg) no-repeat center center fixed;
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+background-color: #CCBB77
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#bg-image {
+  z-index: -999;
+  min-height: 100%;
+  /* min-width: 940px; */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+div#wrapper {
+width: 80%;
+background-color:#CCBB77;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+/* text-indent: 20px; dont put this back - it screws up the tabs */
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+
+
+}
+div#header {
+background-color:#CCBB77;
+/* background-image: url(../images/flyingbeaglelogo.png); */
+background-size: 100%; 
+background-repeat: no-repeat;
+background-position: center;
+	/* force bg img to fit android browser */
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+height: 50px;
+text-align: center;
+/* Set Rounded Corners */
+margin-bottom: 0;
+padding: 5px;
+border: 1px solid #A52A2A;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+   
+}
+div#nav {
+width: 25%;
+padding: 10px;
+margin-top: 1px;
+float: left;
+}
+div#main {
+margin-left: 30%;
+margin-top: 1px;
+margin-bottom: 20px;
+padding: 10px;
+}
+div#footer {
+color: #A52A2A;
+font-size:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+width: 80%;
+background-color:#CCBB77;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+}
+
+a:link {
+text-decoration: none;
+color: brown;
+}
+a:visited {
+text-decoration: none;
+color: brown;
+}
+a:hover {
+text-decoration: underline;
+color: black;
+}
+a:active {
+text-decoration: none;
+color: brown;
+}
+img {
+     max-width: 100%;
+     max-height: 100%;
+}
+
+H1 { color: brown; text-shadow: 1px 1px 1px #888 }
+H2 { color: brown; text-shadow: 1px 1px 1px #888 }
+H3 { color: brown; text-shadow: 1px 1px 1px #888 }
+H4 { color: brown; text-shadow: 1px 1px 1px #888 }
+H5 { color: brown; text-shadow: 1px 1px 1px #888 }
+
+
+HR { background-color: #a52a2a; color: #a52a2a; height: 1px; border: 0; }

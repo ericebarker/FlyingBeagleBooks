@@ -1,0 +1,29 @@
+
+div#header {
+background-color:#CCBB77;
+background-image: url(../images/WebHeadLogoMob.png);
+background-size: cover; /*contain;*/
+background-repeat: no-repeat;
+background-position: center center;
+height: 84px;
+text-align: center;
+/* Set Rounded Corners */
+margin-bottom: 0;
+padding: 10px;
+border: 1px solid #A52A2A;
+/*-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;*/
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+   
+}

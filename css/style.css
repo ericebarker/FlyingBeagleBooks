@@ -1,0 +1,559 @@
+html {
+
+	/* background: url(../images/tiledbrick.jpeg) no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+background-color: #996600; /* Old background color was the light tan of inner cells, F2E394, - now will be brick red */
+font-size:13px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#bg-image {
+  z-index: -999;
+  min-height: 100%;
+  /* min-width: 940px; */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+div#wrapContentInvs {
+float: left;
+width: 100%;
+/*background-color:#F2E394;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 6%;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;*/
+/*  border: thin solid #000000;  */
+/*border: 1px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;*/
+/* Get rid of corner bleed  */
+/*-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;*/
+ 
+/*Box Shadow*/
+/*box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);*/
+}
+
+div#wrapperFront {
+float: left;
+width: 52%;
+background-color:#F2E394; /* old CCBB77 */
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 6%;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#F2E394,#c1b576);
+ background: -o-linear-gradient(#F2E394,#c1b576);
+ background: -moz-linear-gradient(#F2E394,#c1b576);
+ background: linear-gradient(#F2E394,#c1b576);
+}
+
+div#wrapper {
+display: inline-block;
+text-align: center;
+width: 80%;
+background-color:#F2E394;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 5%;
+margin-right: 5%;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#F2E394,#c1b576);
+ background: -o-linear-gradient(#F2E394,#c1b576);
+ background: -moz-linear-gradient(#F2E394,#c1b576);
+ background: linear-gradient(#F2E394,#c1b576);
+}
+
+
+div#sidebar {
+float: right;
+width: 28%;
+background-color:#F2E394;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: 6%;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#F2E394,#c1b576);
+ background: -o-linear-gradient(#F2E394,#c1b576);
+ background: -moz-linear-gradient(#F2E394,#c1b576);
+ background: linear-gradient(#F2E394,#c1b576);
+}
+
+div#header {
+background-color:#F2E394;
+background-image: url(../images/WebHeadNoLogoBG.png);
+background-size: cover; /*contain;*/
+background-repeat: no-repeat;
+background-position: center center;
+height: 180px;
+text-align: center;
+/* Set Rounded Corners */
+margin-bottom: 0;
+padding: 10px;
+border: 1px solid #A52A2A;
+/*-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;*/
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+}
+
+.footerWrap {
+    display: inline-block;
+    text-align: center;
+    right: auto;
+    left: auto;
+    width: 80%;
+    font-size: 16px;
+}
+
+.socButtons {
+padding-top: 10px;
+}
+
+@media only screen and (max-device-width: 1009px) { /* arbitrary breakpoint for simplicity */
+    div#header {
+        background-image:  url(../images/WebHeadNoLogoBG.png);
+		height: 124px;
+    }
+	div#wrapperFront{
+		float: none;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div#wrapper{
+		float: none;
+		width: 80%;	
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div#sidebar{
+		float: none;
+		width: 80%;	
+		margin-right: auto;
+		margin-left: auto;		
+	}
+	.noMobile{display:none;}
+}
+
+div#wrapperMob {
+/*width: 100%;*/
+background-color:#F2E394;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+padding: 2em;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 2px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#F2E394,#c1b576);
+ background: -o-linear-gradient(#F2E394,#c1b576);
+ background: -moz-linear-gradient(#F2E394,#c1b576);
+ background: linear-gradient(#F2E394,#c1b576);
+}
+
+div#wrapperMob p{
+font-size:20px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+line-height: 1.8em;
+}
+div#wrapperMob h1{
+font-size: 38px;
+text-align: center;
+}
+div#wrapperMob h2{
+font-size: 36px;
+text-align: center;
+}
+
+
+div#nav {
+	background-image:url('../images/menu_bg.gif');
+	background-repeat:repeat-x;
+	background-position:top left;
+	width: 100%;
+	font:bold 17px Garamond; /* 13px Arial, Helvetica, sans-serif; */
+	display:block;
+	float: left;
+	height:35px;
+	/*-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;*/
+	border: 1px solid #A52A2A;
+	border-bottom: 2px solid #A52A2A;
+	/*margin-bottom: 30px;*/
+	overflow: hidden;
+/*	padding-left: 6%;
+	padding-right: 6%;*/
+}
+
+ul.nav form {
+	display:block;
+	margin:6px 0px 0px 2px;
+	float:right;
+	padding-right: 6%;
+	}
+
+
+div#main {
+/*margin-left: 30%;*/
+margin-top: 1px;
+margin-bottom: 20px;
+padding: 10px;
+}
+div#footer {
+float: clear;
+color: #A52A2A;
+font-size:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+width: 80%;
+background-color:#F2E394;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #A52A2A;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#F2E394,#c1b576);
+ background: -o-linear-gradient(#F2E394,#c1b576);
+ background: -moz-linear-gradient(#F2E394,#c1b576);
+ background: linear-gradient(#F2E394,#c1b576);
+}
+
+a:link {
+text-decoration: none;
+color: brown;
+}
+a:visited {
+text-decoration: none;
+color: brown;
+}
+a:hover {
+text-decoration: underline;
+color: black;
+}
+a:active {
+text-decoration: none;
+color: brown;
+}
+img {
+     max-width: 100%;
+     max-height: 100%;
+}
+
+H1 { font-family: "Garamond"; color: brown; text-shadow: 2px 2px 2px #888 }
+H2 { font-family: "Garamond"; color: brown; text-shadow: 2px 2px 2px #888 }
+H3 { font-family: "Garamond"; color: brown; text-shadow: 2px 2px 2px #888 }
+H4 { font-family: "Garamond"; color: brown; text-shadow: 2px 2px 2px #888 }
+H5 { font-family: "Garamond"; color: brown; text-shadow: 2px 2px 2px #888 }
+
+HR { background-color: #a52a2a; color: #a52a2a; height: 1px; border: 0; }
+
+td {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  /* color: #333333;
+  background-color: #ffffff;  test comment out css to eliminate whitespace*/
+  vertical-align:text-top;
+}
+
+
+/* Apply padding to td elements that are direct children of the tr element. */
+tr.spaceUnder > td
+{
+  padding-bottom: 1em;
+}
+
+img.floatLeft { 
+   	float: left; 
+    margin: 4px; 
+	}
+
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+	}
+
+img.soc{
+	max-height:40px;
+	float: right;
+	padding: 0 0.5em;
+	/*vertical-align: top;*/
+
+	}
+	
+div.social{
+	position:absolute; 
+	top:50%; 
+	height:10em; 
+	margin-top:-5em
+
+
+	}	
+
+@media only screen and (max-device-width: 1009px) { /* arbitrary breakpoint for simplicity */
+	td{
+	font-size: 20px;
+	line-height: 1.8em;
+	
+	}
+	img.soc{
+	max-height:80px;
+	padding: 0 1em;
+	vertical-align: text-bottom;
+	}
+}
+
+	
+input.srchbutton {
+background: #a22;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #cb7;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor: pointer;
+
+/* BG Gradients */
+ background: -webkit-linear-gradient(#aa2222,#881b1b);
+ background: -o-linear-gradient(#aa2222,#881b1b);
+ background: -moz-linear-gradient(#aa2222,#881b1b);
+ background: linear-gradient(#aa2222,#881b1b);
+}
+
+
+/* css for fixed position header and menu, works with jQuery put into html of page */
+
+
+
+/* For fixed navbar after scrolling */
+/* Menu */
+ 
+#menutop {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #426d9c), color-stop(40%, #0f67a1), color-stop(100%, #1384d1));
+background: -moz-linear-gradient(top, #426d9c, #0f67a1, #1384d1);
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+line-height: 60px;
+text-align: center;
+margin: 0 auto;
+padding: 0;
+}
+ 
+/* Default Style */
+ 
+.default {
+/*width: 850px;
+height: 50px;*/
+box-shadow: 0 5px 20px #888;
+-webkit-box-shadow: 0 5px 20px #888;
+-moz-box-shadow: 0 5px 20px #888;
+}
+ 
+ 
+/* CSS3 position: fixed */
+.fixed {
+position: fixed;
+top: -5px;
+left: 0;
+width: 100%;
+box-shadow: 0 0 40px #222;
+-webkit-box-shadow: 0 0 40px #222;
+-moz-box-shadow: 0 0 40px #222;
+}
+
+/*
+****************** remove comment for text headline or caption over image
+#CapImgContainer
+{
+    height:400px;
+    width:400px;
+    position:relative;
+}
+
+#CappedImage
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+#CaptionText
+{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+}
+
+******************* HTML to use above
+
+<div id="CapImgContainer">
+    <img id="CappedImage" src="../images/this_image.jpg"/>
+    <p id="CaptionText">
+        Hello World!
+    </p>
+</div>
+
+********************* end captioned image CSS
+*/
+
+
+
+
+/*#headernmenu.affix {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    width: 100%
+}
+
+#headernmenu.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}  */
+/*
+topspacer{
+	margin-top: 550px;
+}  */

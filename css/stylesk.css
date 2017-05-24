@@ -1,0 +1,196 @@
+html {
+
+	/* background: url(../images/tiledbrick.jpeg) no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+background-color: #D7E3CF
+font-size:13px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#bg-image {
+  z-index: -999;
+  min-height: 100%;
+  /* min-width: 940px; */
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+div#wrapper {
+width: 80%;
+background-color:#D7E3CF;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #5f6c7a;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+}
+
+div#sidebar {
+float: right;
+width: 15%;
+background-color:#D7E3CF;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #5f6c7a;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+}
+
+div#header {
+width: 90%;
+background-color:#D7E3CF;
+background-image: url(../saxkids/images/saxkidslogo.gif);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+height: 200px; /* adjust height for saxkids logo */
+text-align: center;
+/* Set Rounded Corners */
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 0;
+padding: 10px;
+border: 1px solid #5f6c7a;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+   
+}
+div#nav {
+width: 25%;
+padding: 10px;
+margin-top: 1px;
+float: left;
+}
+div#main {
+margin-left: 30%;
+margin-top: 1px;
+margin-bottom: 20px;
+padding: 10px;
+}
+div#footer {
+color: #5f6c7a;
+font-size:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+width: 80%;
+background-color:#D7E3CF;
+margin-top: 10px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+text-indent: 20px;
+/*  border: thin solid #000000;  */
+border: 1px solid #5f6c7a;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* Get rid of corner bleed  */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+ 
+/*Box Shadow*/
+box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+
+
+}
+
+a:link {
+text-decoration: none;
+color: #5f6c7a;
+}
+a:visited {
+text-decoration: none;
+color: #5f6c7a;
+}
+a:hover {
+text-decoration: underline;
+color: black;
+}
+a:active {
+text-decoration: none;
+color: #5f6c7a;
+}
+img {
+     max-width: 100%;
+     max-height: 100%;
+}
+
+H1 { color: #5f6c7a; text-shadow: 2px 2px 2px #888 }
+H2 { color: #5f6c7a; text-shadow: 2px 2px 2px #888 }
+H3 { color: #5f6c7a; text-shadow: 2px 2px 2px #888 }
+H4 { color: #5f6c7a; text-shadow: 2px 2px 2px #888 }
+H5 { color: #5f6c7a; text-shadow: 2px 2px 2px #888 }
+
+HR { background-color: #5f6c7a; color: #5f6c7a; height: 1px; border: 0; }
+
+td {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  /* color: #333333;
+  background-color: #ffffff;  test comment out css to eliminate whitespace*/
+  vertical-align:text-top;
+}
